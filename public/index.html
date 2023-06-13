@@ -10,20 +10,17 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <meta name="description" content="Little lemon Website" />
+    <meta property="og:title" content="Little Lemon App" />
+    <meta property="og:description" content="Website of the Little Lemon restaurant" />
+    <meta
+      property="og:image"
+      content="data:image/png;base64,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"
+    />
+
     <title>React App</title>
   </head>
   <body>
