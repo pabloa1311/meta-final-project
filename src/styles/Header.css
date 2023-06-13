@@ -2,7 +2,6 @@
     display: flex;
     width: 90%;
     justify-content: space-between;
-    border: solid;
 }
 
 .header__nav > ul {
