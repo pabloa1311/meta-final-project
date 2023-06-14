@@ -1,0 +1,37 @@
+.options {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.options > img {
+    object-fit: contain;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.options__title {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options > p {
+    text-align: left;
+    padding: 1rem;
+}
+
+.options__order {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.options__order > p {
+    font-size: 10px;
+}
