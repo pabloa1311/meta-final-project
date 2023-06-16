@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-between;
+    width: 90%;
+    align-items: flex-start;
+}
+
+.footer > img {
+    object-fit: contain;
+    height: 150px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.footer__socialItems > ul {
+    text-align: center;
+}

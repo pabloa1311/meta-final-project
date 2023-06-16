@@ -1,7 +1,8 @@
 .options {
     display: flex;
     flex-direction: column;
-    border: solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
     width: 33%;
     margin: 0 auto;
 }

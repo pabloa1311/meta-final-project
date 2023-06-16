@@ -1,0 +1,10 @@
+.testimonial {
+    margin-top: 60px;
+    width: 90%;
+}
+
+.testimonial__comments {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

@@ -1,0 +1,17 @@
+.testiComment {
+    width: 20%;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.testiComment__name {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testiComment__name > p {
+    font-size: 0.8rem;
+}
