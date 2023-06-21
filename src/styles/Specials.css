@@ -25,3 +25,9 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+   .specials__options {
+    flex-direction: column;
+   }
+}

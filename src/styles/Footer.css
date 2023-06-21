@@ -25,3 +25,24 @@ h3 {
 .footer__socialItems > ul {
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        margin-top: 10px;
+    }
+
+    ul {
+        display: flex;
+        width: 250px;
+        justify-content: space-between;
+    }
+
+    .footer > img {
+        margin-top: -20px;
+    }
+}

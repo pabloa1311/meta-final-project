@@ -36,3 +36,14 @@
 .options__order > p {
     font-size: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .options {
+     width: 90%;
+     margin-bottom: 20px;
+    }
+
+    .options__order {
+        margin: 0 auto;
+    }
+ }

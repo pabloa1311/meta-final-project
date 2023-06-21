@@ -1,8 +1,9 @@
 .testiComment {
-    width: 20%;
+    width: 150px;
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 10px;
+    margin: 10px 0;
 }
 
 .testiComment__name {
@@ -15,3 +16,9 @@
 .testiComment__name > p {
     font-size: 0.8rem;
 }
+
+@media screen and (max-width: 600px) {
+    .testiComment {
+        margin-bottom: 20px;
+    }
+ }
