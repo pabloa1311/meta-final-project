@@ -1,0 +1,26 @@
+.bookingForm {
+    width: 70%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.bookingForm__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookingForm__form > div {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookingForm__form > input {
+    margin-top: 20px;
+    width: 50%;
+}
